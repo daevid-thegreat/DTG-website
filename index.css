@@ -1,0 +1,34 @@
+::selection {
+    background: black;
+    color: white;
+  }
+  * {
+      padding-left : 8px;
+      padding-right: 8px;
+  }
+body {
+    background-color: white;
+    font-family: 'JetBrains Mono', monospace;
+}
+/* blur navbar background */
+.navbar {
+    -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+.foot {
+    padding-top: 10px;
+}
+.specialty {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.foot .social .socials {
+    padding-left: 4px;
+    padding-right: 4px;
+    display: inline;
+} 
+@media (min-width: 576px) {
+    .my-mail{
+        align-items: center;
+    }
+}
