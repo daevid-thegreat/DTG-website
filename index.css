@@ -7,10 +7,15 @@
       padding-right: 8px;
       
   }
+html {
+    overflow-x: hidden;
+    width: 100%;
+    position: absolute;
+}
 body {
     background-color: white;
     font-family: 'JetBrains Mono', monospace;
-    overflow-x: hidden;
+
 }
 /* blur navbar background */
 .navbar {
